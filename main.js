@@ -15,7 +15,7 @@ function fetchPost() {
         const posts = json
           .map((post) => {
             return `
-              <div class="post">
+                <div  class="card">
                     <h3 class="post-title">${post.title}</h3>
                     <p>${post.body}</p>
                     <button onClick=singlePost(${post.id})>see more</button>

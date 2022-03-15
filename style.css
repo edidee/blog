@@ -3,6 +3,8 @@
 }
 .row{
    display: flex; 
+   flex-wrap: wrap;
+   justify-content: space-between;
    
 }
 
@@ -11,13 +13,14 @@
 }
 
 .card {
-    width: 20rem;
+    width: 18rem;
     margin-top: 3rem;
+    border-style: solid;
+    padding: 2rem;
 }
 
 .post {
-    border-style: solid;
-    padding: 2rem;
+    
     width: 60%;
 }
 
