@@ -1,4 +1,5 @@
 
+// show all post
 function fetchPost() {
   
       
@@ -17,7 +18,7 @@ function fetchPost() {
               <div class="post">
                     <h3 class="post-title">${post.title}</h3>
                     <p>${post.body}</p>
-                    <a>Read more</a>
+                    <button onClick=singlePost(${post.id})>see more</button>
                 </div>
               `;
           })
@@ -35,6 +36,15 @@ function fetchPost() {
 }
 
 fetchPost();
+
+
+// show single post
+function singlePost(id) {
+  fetch("https://jsonplaceholder.typicode.com/posts/?");
+}
+
+
+
 
 
 // async function fetchPost() {
