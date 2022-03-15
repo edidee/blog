@@ -1,0 +1,21 @@
+.grid-container{
+   display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px; 
+}
+
+.header {
+    text-align: center;
+}
+
+.block1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.post {
+    width: 70%;
+    border-style: solid;
+    padding: 2rem;
+}
